@@ -1,0 +1,18 @@
+.footer {
+    background-color: #222;
+    color: #bbb;
+    padding: 1rem 0;
+    text-align: center;
+    margin-top: auto; /* Push footer to the bottom */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
