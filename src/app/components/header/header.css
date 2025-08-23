@@ -13,9 +13,10 @@
     padding: 0 1rem;
 }
 
-.site-logo {
+.site-logo h1 {
     margin: 0;
-    font-size: 1.5rem;
+    font-size: 3rem;
+    color: #fff;
 }
 
 .site-logo a {
