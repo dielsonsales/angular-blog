@@ -58,13 +58,13 @@ Here is the development plan for the Angular blog project:
 
 ### **Phase 1: Foundational Setup and Core Components**
 
-This phase will focus on establishing the basic structure of the website. We'll replace the default Angular landing page with our own, create a clear navigation system, and set up the main layout.
+Focused on establishing the basic structure of the website. Replace the default Angular landing page with our own, create a clear navigation system, and set up the main layout.
 
 * **1.1. Core Layout and Navigation:**
 
-* Create a `HeaderComponent` and a `FooterComponent` to define the top and bottom sections of the website.
-* Integrate these components into the main `App` component's template.
-* Implement a responsive navigation menu within the `HeaderComponent` that works on both desktop and mobile devices.
+* ✅ Create a `Header` and a `Footer` components to define the top and bottom sections of the website.
+* ✅ Integrate these components into the main `App` component's template.
+* Implement a responsive navigation menu within the `Header` that works on both desktop and mobile devices.
 
 * **1.2. Routing:**
 
@@ -73,12 +73,12 @@ This phase will focus on establishing the basic structure of the website. We'll 
 
 * **1.3. Home Page:**
 
-* Develop the `HomeComponent` which will serve as the landing page.
+* Develop the `Home` component which will serve as the landing page.
 * This page should include an introduction, a call-to-action (e.g., "Read my latest blog post"), and links to other sections.
 
 ### **Phase 2: Blog Functionality**
 
-This phase is dedicated to building the core blog features. We'll create the necessary components and services to display a list of posts and individual post details.
+Dedicated to building the core blog features, create the necessary components and services to display a list of posts and individual post details.
 
 * **2.1. Data Service:**
 
@@ -87,11 +87,11 @@ This phase is dedicated to building the core blog features. We'll create the nec
 
 * **2.2. Blog List Page:**
 
-* Create a `BlogListComponent` to display all blog posts in a list format.
+* Create a `BlogList` component to display all blog posts in a list format.
 * The component will use the `BlogService` to retrieve the data and display a summary for each post, including the title, a short excerpt, and the publication date.
 * **2.3. Blog Post Detail Page:**
 
-* Create a `BlogPostComponent` to display the full content of a single blog post.
+* Create a `BlogPost` component to display the full content of a single blog post.
 * This component will use the Angular Router to get the post ID from the URL and fetch the specific post data from the `BlogService`.
 
 ### **Phase 3: Portfolio and Other Content Pages**
@@ -100,14 +100,14 @@ In this phase, we'll build out the remaining content sections of the website, fo
 
 * **3.1. Portfolio Page:**
 
-* Create a `PortfolioComponent` to showcase a list of projects.
+* Create a `Portfolio` component to showcase a list of projects.
 * Similar to the blog, create a `PortfolioService` with mock data for projects.
 * Each project entry will include a title, description, and links to the live project or a GitHub repository.
 
 * **3.2. About and Contact Pages:**
 
-* Create an `AboutComponent` with information about your professional background, skills, and interests.
-* Create a `ContactComponent` with your contact information. Initially, this can be a simple page with an email address, social media links, etc. We can consider adding a contact form later.
+* Create an `About` component with information about your professional background, skills, and interests.
+* Create a `Contact` component with your contact information. Initially, this can be a simple page with an email address, social media links, etc. We can consider adding a contact form later.
 
 ### **Phase 4: Design, SEO, and Performance Optimization**
 
