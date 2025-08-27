@@ -13,13 +13,12 @@
     padding: 0 1rem;
 }
 
-.site-logo h1 {
-    margin: 0;
+.site-logo {
     font-size: 3rem;
-    color: #fff;
 }
 
-.site-logo a {
+.site-logo a,
+.site-logo a:visited {
     color: #fff;
     text-decoration: none;
 }
@@ -32,7 +31,8 @@
     gap: 1rem;
 }
 
-.main-nav a {
+.main-nav a,
+.main-nav a:visited {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -48,7 +48,6 @@
 @media (max-width: 768px) {
     .container {
         flex-direction: column;
-        /* align-items: flex-start; */
     }
 
     .site-logo {
