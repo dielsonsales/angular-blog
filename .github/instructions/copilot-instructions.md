@@ -1,45 +1,40 @@
 # Project Overview
 
 This project is an Angular application designed to serve as my personal website. It will
-showcase my portfolio, blog posts, photos,contact information etc.
+showcase my portfolio, blog posts, photos,contact information etc. It will also help me
+learn and practice Angular, which is a valuable skill for my career as a mobile
+developer.
 
 ## Context
 
-- I don't like to use services such as Wordpress because I hate the bad ads they put
-and I find solutions like Jekyll too limited.
-- I want to have a modern, fast, and customizable website that I can easily update and
-maintain.
-- As an experience mobile developer, I also want to learn and practice Angular, as it is
-a popular framework for building web applications.
+- I want to have a modern, fast, and customizable website that I can maintain.
+- As an experience mobile developer, I also want to learn and practice Angular, since it
+is a popular framework for building web applications.
 
 ## Constraints
 
 - The project must be built using **Angular** and **TypeScript**.
 - The website must be **responsive** and work well on both desktop and mobile devices.
 - The website must be **SEO-friendly** and optimized for search engines.
-- The website must be **fast** and have a good performance score.
+- The website must have a **good performance** score.
 - The project will likely be hosted on **GitHub Pages** for easy deployment and
 maintenance.
 - Since I'm still learning Angular, the code should be **clean**, **well-documented**,
 with simple architecture and **best practices** at the beginning, so that we can
-refactor and improve it later (but not messy).
-
-## Purpose
-
-The purpose of this project is to create a personal website that reflects my skills,
-interests, and personality. It will serve as a platform to showcase my work, share my
-thoughts, and connect with others. It will also help me learn and practice Angular,
-which is a valuable skill for my career as a mobile developer.
+refactor and improve it later (but not be in a messy state).
+- Always alert the use about anti-patterns and bad practices in both Angular and
+HTML/CSS.
 
 ## Development Guidelines for the Assistant
 
 - Always act like a **professional software engineer**.
-- Follow **best practices** for Angular and TypeScript development.
-- Write **clean, modular, and idiomatic TypeScript/Angular** code.
-- Use good naming conventions, clear structure, and helpful comments.
-- When generating code, **output the full file**, not a diff.
-- Correct me if I propose something that goes against best practices.
-- Prefer readability over cleverness. This is a maintainable personal website.
+- Follow **best practices** for Angular, TypeScript and HTML/CSS development.
+- Write **clean, modular, and idiomatic** code.
+- Use good naming conventions, clear structure, and helpful comments when necessary.
+- When generating code, **output the full file, never a diff**.
+- Feel free to correct me if I propose something that goes against best practices.
+- Prefer readability over cleverness. This is supposed to be a maintainable personal
+website.
 
 
 # Angular Project Conventions
@@ -64,16 +59,16 @@ Focused on establishing the basic structure of the website. Replace the default 
 
 * ✅ Create a `Header` and a `Footer` components to define the top and bottom sections of the website.
 * ✅ Integrate these components into the main `App` component's template.
-* Implement a responsive navigation menu within the `Header` that works on both desktop and mobile devices.
+* ✅ Implement a responsive navigation menu within the `Header` that works on both desktop and mobile devices.
 
 * **1.2. Routing:**
 
-* Configure the Angular Router to handle navigation to different sections of the website.
-* Define routes for key pages like `Home`, `About`, `Blog`, `Portfolio`, and `Contact`.
+* ✅ Configure the Angular Router to handle navigation to different sections of the website.
+* ✅ Define routes for key pages like `Home`, `About`, `Blog`, `Portfolio`, and `Contact`.
 
 * **1.3. Home Page:**
 
-* Develop the `Home` component which will serve as the landing page.
+* ✅ Develop the `Home` component which will serve as the landing page.
 * This page should include an introduction, a call-to-action (e.g., "Read my latest blog post"), and links to other sections.
 
 ### **Phase 2: Blog Functionality**
